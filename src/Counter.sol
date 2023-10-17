@@ -8,6 +8,7 @@ import {IPoolManager} from "@uniswap/v4-core/contracts/interfaces/IPoolManager.s
 import {PoolKey} from "@uniswap/v4-core/contracts/types/PoolKey.sol";
 import {PoolId, PoolIdLibrary} from "@uniswap/v4-core/contracts/types/PoolId.sol";
 import {BalanceDelta} from "@uniswap/v4-core/contracts/types/BalanceDelta.sol";
+import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
 
 contract Counter is BaseHook {
     using PoolIdLibrary for PoolKey;
